@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--caracteres acentuados  --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/guitaricon2.png">
+    <link rel="stylesheet" href="style/main.css"> <!--utilizando o EMMET para ser mais prático, digita "link" e escolhe o css-->
+    
+   <!--responsividade-->
+   <link rel="stylesheet" href="style/responsive.css" class="">
+   
+    <!--owl css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css"> 
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css"> 
+
+    <title>ROCKFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">ROCKFLIX</h2>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+            <nav>
+                <a href="#">Notícias</a> <!--Alt+Shift+seta pra baixo, par clonar as linhas-->
+                <a href="#">Bandas</a> 
+                <a href="#">Documentários</a> 
+                <a href="#">Playlists</a> 
+            </nav>
+        </div>        
+    </header>
+    <main>
+        <div class="banda-destaque"> <!--div.filme-destaque (div.nome da classe -  "atalho")-->
+            <div class="container">
+                <h3 class="titulo">AEROSMITH</h3>
+                <p class="descricao">A banda foi formada em Boston, em Massachusetts, em 1970. O guitarrista Joe Perry e baixista Tom Hamilton, originalmente integrantes de uma banda chamada Jam Band, se encontraram com o vocalista Steven Tyler, o baterista Joey Kramer e o guitarrista Ray Tabano e formaram o Aerosmith. Em 1971, Tabano foi substituído por Brad Whitford, e a banda começou a atrair seguidores em Boston.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"> <!--role é para aplicativos mobile entenderem que é um botão-->
+                        <i class="fas fa-play-circle"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao"> 
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </h3><!-- a tag div não precisa ser fechada-->                        
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/kiss.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/nirvana.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/iron maiden.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/queen.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/bsabbath.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/u2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/motorhead.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/skid row.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/ramones.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/acdc.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/68800f5446.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/Owl/setup.js"></script>
+</body>
+</html>
